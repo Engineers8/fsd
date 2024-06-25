@@ -1,0 +1,13 @@
+py -m pip install --user virtualenv
+
+py -m venv first
+
+.\first\Scripts\activate
+
+pip install django
+
+django-admin startproject second
+
+pip install djangorestframework
+
+python manage.py runserver
